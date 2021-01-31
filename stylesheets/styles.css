@@ -1,17 +1,26 @@
 html {
-    width: 80%;
+    /*width: 80%;*/
     margin-top: 40px;
     margin-right: 50px;
-    margin-left: 50px
-}
-
-body {
+    margin-left: 50px;
     background: #f1f1f1;
 }
 
+body {
+    background: #fff;
+    color: #444;
+    width: 80%;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
 h1 {
-    font-family: "helvetica";
-    font-size: 40px;
+    font-family: futura-pt;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
 }
 
 h2 {
