@@ -17,6 +17,17 @@ body {
     font-style: italic;
 }
 
+.contact-type {
+    font-size: 15px;
+    font-family: helvetica;
+    font-weight: 15;
+}
+
+.contact-data {
+    font-size: 15px;
+    font-family: monaco;
+}
+
 h1 {
     font-family: "helvetica";
     font-size: 40px;
