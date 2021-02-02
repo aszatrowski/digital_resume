@@ -70,6 +70,27 @@ h2 {
     font-style: italic;
 }*/
 
+.item-header {
+    font-family: helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    font-style: bold;
+}
+
+.date-range {
+    font-size: 14px;
+    font-family: helvetica;
+    font-weight: 500;
+    font-style: italic;
+    color: #DB6B69;
+}
+
+.info-text {
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 300;
+}
+
 .contact-type {
     font-size: 15px;
     font-family: helvetica;
