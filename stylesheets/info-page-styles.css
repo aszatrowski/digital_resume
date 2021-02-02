@@ -33,26 +33,42 @@ h1 {
   font-size: 50px;
   font-weight: 500;
   font-style: italic;
-  color: #ffffff;
   text-decoration: none;
 }
 
 #homepage-nameplate {
   text-align: bottom;
+  font-family: futura-pt;
+  font-size: 50px;
+  font-weight: 500;
+  font-style: italic;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 h2 {
-  font-family: helvetica;
-  font-size: 20px;
+  font-family: futura-pt;
+  font-size: 30px;
 }
-.name-header {
+
+.page-header {
+    font-family: futura-pt, sans-serif;
+    font-weight: 800;
+
+}
+
+.page-content {
+    padding-left: 4%;
+}
+
+/*.name-header {
     font-size: 25px;
     color: grey;
     font-style: italic;
     font-family: futura-pt, sans-serif;
     font-weight: 300;
     font-style: italic;
-}
+}*/
 
 .contact-type {
     font-size: 15px;
@@ -65,20 +81,6 @@ h2 {
     font-family: monospace;
 }
 
-h1 {
-    font-family: "helvetica";
-    font-size: 40px;
-}
-
-h2 {
-    font-family: helvetica;
-    font-size: 20px;
-}
-
-.pfp {
-    height: 200px;
-    width: 150px
-}
 a:hover {
     text-decoration: underline;
 }
