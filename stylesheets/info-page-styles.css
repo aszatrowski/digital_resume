@@ -1,15 +1,50 @@
 html {
-   /* width: 80%;*/
-    margin-top: 40px;
-    margin-right: 50px;
-    margin-left: 50px
+  /*width: 80%;*/
+  margin-top: 40px;
+  margin-right: 50px;
+  margin-left: 50px;
+  background: #f1f1f1;
 }
 
 body {
-    width: 80%;
-    background: #f1f1f1;
+  background: #fff;
+  color: #444;
+  width: 90%;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
 }
 
+.feature-img {
+  width: 95%;
+  height: 100px;
+  padding-left: 4%;
+  padding-top: 0.2%;
+  /*background-image: linear-gradient(#A6A1AF, #332D43);*/
+  /*url("assets/IMG_3869.jpg");*/
+  background-color: #332D43;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: futura-pt;
+  font-size: 50px;
+  font-weight: 500;
+  font-style: italic;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#homepage-nameplate {
+  text-align: bottom;
+}
+
+h2 {
+  font-family: helvetica;
+  font-size: 20px;
+}
 .name-header {
     font-size: 25px;
     color: grey;
