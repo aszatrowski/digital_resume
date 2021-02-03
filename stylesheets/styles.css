@@ -10,6 +10,7 @@ body {
   background: #fff;
   color: #444;
   width: 90%;
+  height: 1000px;
   padding-top: 30px;
   padding-left: 30px;
   padding-bottom: 30px;
@@ -40,6 +41,19 @@ h1 {
   text-align: bottom;
 }
 
+#twitter_div {
+  padding-left: 4%;
+  padding-top: 2%;
+  height: 500px;
+  width: 300px;
+  float: left;
+}
+
+.twitter-timeline {
+  height: 500px;
+  width: 300px;
+}
+
 h2 {
   font-family: helvetica;
   font-size: 20px;
@@ -54,6 +68,8 @@ h2 {
 
 #linkbox {
   padding-left: 4%;
+  width: 63%;
+  float: left;
 }
 /*a:hover {
     text-decoration: underline;
