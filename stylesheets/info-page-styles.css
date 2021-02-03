@@ -81,5 +81,9 @@ h2 {
 }
 
 .email-link {
-
+  font-size: 16px;
+  font-family: helvetica;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #DB6B69;
 }
