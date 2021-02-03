@@ -59,7 +59,8 @@ h1 {
   font-family: helvetica, sans-serif;
   font-weight: 600;
   color: rgb(30, 33, 39);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: #DB6B69;
 }
 
 #column2 {
@@ -68,6 +69,27 @@ h1 {
   height: 500px;
   width: 300px;
   float: left;
+}
+
+.publication {
+  width: 300px;
+  font-size: 16px;
+  font-family: helvetica;
+  font-weight: 300;
+
+}
+
+.info-text {
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: 300;
+}
+
+.small-link {
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: underline;
+  text-decoration-color: #DB6B69;
 }
 
 #column3 {
@@ -82,4 +104,8 @@ h1 {
 .twitter-timeline {
   height: 500px;
   width: 300px;
+}
+
+a:visited{
+  color: inherit;
 }
