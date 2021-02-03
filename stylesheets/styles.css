@@ -17,6 +17,23 @@ body {
   padding-right: 30px;
 }
 
+a {
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: underline;
+  text-decoration-color: #DB6B69;
+  color: inherit;
+}
+
+a:visited{
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: underline;
+  text-decoration-color: #DB6B69;
+  color: inherit;
+}
+
+
 .feature-img {
   width: 95%;
   height: 100px;
@@ -37,8 +54,10 @@ h1 {
   color: #ffffff;
   text-decoration: none;
 }
+
 #homepage-nameplate {
   text-align: bottom;
+  text-decoration: none;
 }
 
 .header-icon {
@@ -88,8 +107,8 @@ h1 {
 .small-link {
   font-family: inherit;
   font-size: inherit;
-  text-decoration: underline;
   text-decoration-color: #DB6B69;
+  text-decoration: none;
 }
 
 #column3 {
@@ -104,8 +123,4 @@ h1 {
 .twitter-timeline {
   height: 500px;
   width: 300px;
-}
-
-a:visited{
-  color: inherit;
 }
