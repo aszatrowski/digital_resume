@@ -7,7 +7,7 @@
 * **Teal:** `#68A8A8`
 
 ## Feature Ideas:
-* Badge links for IG/Twitter and my search page on PubMed
-* Skillsets
-* Links to publications
+* Badge links for IG/Twitter and my search page on PubMed (right column)
+* Skillsets (center column)
+* Links to publications (Center column)
 * Some sort of JS thing to track paper citations

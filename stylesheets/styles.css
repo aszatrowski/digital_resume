@@ -41,18 +41,7 @@ h1 {
   text-align: bottom;
 }
 
-#twitter_div {
-  padding-left: 4%;
-  padding-top: 2%;
-  height: 500px;
-  width: 300px;
-  float: left;
-}
 
-.twitter-timeline {
-  height: 500px;
-  width: 300px;
-}
 
 h2 {
   font-family: helvetica;
@@ -68,13 +57,42 @@ h2 {
 
 #linkbox {
   padding-left: 4%;
-  width: 63%;
+  padding-top: 2%;
+  width: 30%;
   float: left;
 }
 /*a:hover {
     text-decoration: underline;
 }*/
 
+#column2 {
+  padding-left: 4%;
+  padding-top: 2%;
+  height: 500px;
+  width: 300px;
+  float: left;
+}
+
+#column3 {
+  padding-left: 4%;
+  padding-top: 2%;
+  height: 500px;
+  width: 300px;
+  float: left;
+}
+
+/* #twitter_div {
+  padding-left: 4%;
+  padding-top: 2%;
+  height: 500px;
+  width: 300px;
+  float: left;
+} */
+
+.twitter-timeline {
+  height: 500px;
+  width: 300px;
+}
 
 a:link {
   color: #000000;
