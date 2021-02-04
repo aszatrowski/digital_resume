@@ -41,16 +41,16 @@ h1 {
 }
 
 h2 {
-  font-family: futura-pt;
-  font-size: 30px;
+  font-family: futura-pt, sans-serif;
+  font-size: 35px;
 }
 
 .page-header {
-  font-family: helvetica, sans-serif;
-  font-weight: 600;
+  font-family: futura-pt, sans-serif;
+  font-weight: 450;
   color: rgb(30, 33, 39);
-  text-decoration: underline;
-  text-decoration-color: #DB6B69;
+  /* text-decoration: underline;
+  text-decoration-color: #DB6B69; */
 }
 
 .page-content {
