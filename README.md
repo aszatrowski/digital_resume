@@ -11,3 +11,4 @@
 * Skillsets (center column)
 * Links to publications (Center column)
 * Some sort of JS thing to track paper citations
+* PDF download link
