@@ -64,7 +64,7 @@ h1 {
 #linkbox {
   padding-left: 4%;
   padding-top: 2%;
-  width: 30%;
+  width: 60%;
   float: left;
 }
 
@@ -76,8 +76,10 @@ h2 {
   text-decoration-color: #DB6B69;
 }
 
-#contact-info {
-  display: none;
+.contact-data {
+  float: left;
+  padding: 2%;
+  padding-left: 0%;
 }
 
 #column2 {
