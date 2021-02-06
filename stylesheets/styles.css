@@ -60,12 +60,6 @@ h1 {
   text-decoration: none;
 }
 
-.header-icon {
-  display: inline;
-  height: 20px;
-  width: 20px;
-}
-
 
 #linkbox {
   padding-left: 4%;
@@ -80,6 +74,10 @@ h2 {
   color: rgb(30, 33, 39);
   text-decoration: underline;
   text-decoration-color: #DB6B69;
+}
+
+#contact-info {
+  display: none;
 }
 
 #column2 {
