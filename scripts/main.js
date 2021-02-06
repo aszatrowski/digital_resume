@@ -1,8 +1,21 @@
-instagram// CONTACT
+// Column1 Vars
 let contactDisplayStatus = "none";
+let educationDisplayStatus = "none";
+let workexpDisplayStatus = "none";
+let activitiesDisplayStatus = "none";
+
+// Colum2 Vars
+let skillsDisplayStatus = "none";
+let pubsDisplayStatus = "none";
+let instaDisplayStatus = "none";
+let twitterDisplayStatus = "none";
+
 document.getElementById("contact-info").style.display = contactDisplayStatus;
 
 document.getElementById("contact").onclick = function() {
+  // educationDisplayStatus = "none";
+  // workexpDisplayStatus = "none";
+  // activitiesDisplayStatus = "none";
   if (contactDisplayStatus == "none") {
       contactDisplayStatus = "block";
       document.getElementById("contact-info").style.display = contactDisplayStatus;
@@ -14,7 +27,7 @@ document.getElementById("contact").onclick = function() {
 }
 
 //EDUCATION
-let educationDisplayStatus = "none";
+
 document.getElementById("education-info").style.display = educationDisplayStatus;
 
 document.getElementById("education").onclick = function() {
@@ -29,7 +42,7 @@ document.getElementById("education").onclick = function() {
 }
 
 // WORK EXPERIENCE
-let workexpDisplayStatus = "none";
+
 document.getElementById("work-info").style.display = workexpDisplayStatus;
 
 document.getElementById("workexp").onclick = function() {
@@ -44,7 +57,7 @@ document.getElementById("workexp").onclick = function() {
 }
 
 // ACTIVITIES
-let activitiesDisplayStatus = "none";
+
 document.getElementById("activities-info").style.display = activitiesDisplayStatus;
 
 document.getElementById("activities").onclick = function() {
@@ -59,7 +72,7 @@ document.getElementById("activities").onclick = function() {
 }
 
 // SKILLS
-let skillsDisplayStatus = "none";
+
 document.getElementById("skills-info").style.display = skillsDisplayStatus;
 
 document.getElementById("skills").onclick = function() {
@@ -74,7 +87,7 @@ document.getElementById("skills").onclick = function() {
 }
 
 // Publications
-let pubsDisplayStatus = "none";
+
 document.getElementById("pubs-info").style.display = pubsDisplayStatus;
 
 document.getElementById("pubs").onclick = function() {
@@ -89,7 +102,7 @@ document.getElementById("pubs").onclick = function() {
 }
 
 //Instagram
-let instaDisplayStatus = "none";
+
 document.getElementById("instagram-div").style.display = instaDisplayStatus;
 
 document.getElementById("instagram").onclick = function() {
@@ -104,7 +117,7 @@ document.getElementById("instagram").onclick = function() {
 }
 
 //Twitter
-let twitterDisplayStatus = "none";
+
 document.getElementById("twitter-div").style.display = twitterDisplayStatus;
 
 document.getElementById("twitter").onclick = function() {

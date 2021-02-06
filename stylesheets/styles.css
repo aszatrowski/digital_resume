@@ -69,10 +69,18 @@ h1 {
   float: left;
 }
 
+.show-hide {
+  height:60px;
+  width: auto;
+  background-color: #68A8A8;
+}
+
 h2 {
+  font-size: 25px;
   font-family: helvetica, sans-serif;
   font-weight: 600;
   color: rgb(30, 33, 39);
+  /* color: #ffffff; */
   text-decoration: underline;
   text-decoration-color: #DB6B69;
 }
