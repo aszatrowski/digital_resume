@@ -16,3 +16,4 @@
 * Add clear show/hide buttom to each heading
   * Move ids to show/hide button, make headings pure `<h2>`
   * Figure out how to display inline (`float:left`?)
+* Make page length adaptable to open sections

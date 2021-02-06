@@ -7,14 +7,11 @@ html {
 }
 
 body {
-  background: #fff;
-  color: #444;
+  background: #ffffff;
+  color: #444444;
   width: 90%;
-  height: 1000px;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-bottom: 30px;
-  padding-right: 30px;
+  height: 1450px;
+  padding: 30px;
 }
 
 a {
@@ -82,7 +79,7 @@ h2 {
 
 .contact-data {
   float: left;
-  padding-right: 2%;  
+  padding-right: 2%;
 }
 
 #column2 {
@@ -110,7 +107,7 @@ h2 {
 
 
 .twitter-timeline {
-  height: 500px;
+  height: 400px;
   width: 300px;
 }
 
