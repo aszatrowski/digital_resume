@@ -9,6 +9,7 @@
 ## Feature Ideas:
 * Badge links for IG/Twitter and my search page on PubMed (right column)
 * Skillsets (center column)
-* Links to publications (Center column)
+* Links to publications (Center column) - DONE
 * Some sort of JS thing to track paper citations
 * PDF download link
+* Make [main.js](scripts/main.js) more efficient with functions
