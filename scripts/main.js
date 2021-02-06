@@ -42,3 +42,48 @@ document.getElementById("workexp").onclick = function() {
       document.getElementById("work-info").style.display = workexpDisplayStatus;
   }
 }
+
+// ACTIVITIES
+let activitiesDisplayStatus = "none";
+document.getElementById("activities-info").style.display = activitiesDisplayStatus;
+
+document.getElementById("activities").onclick = function() {
+  if (activitiesDisplayStatus == "none") {
+      activitiesDisplayStatus = "block";
+      document.getElementById("activities-info").style.display = activitiesDisplayStatus;
+  }
+  else if (activitiesDisplayStatus == "block") {
+      activitiesDisplayStatus = "none";
+      document.getElementById("activities-info").style.display = activitiesDisplayStatus;
+  }
+}
+
+// SKILLS
+let skillsDisplayStatus = "none";
+document.getElementById("skills-info").style.display = skillsDisplayStatus;
+
+document.getElementById("skills").onclick = function() {
+  if (skillsDisplayStatus == "none") {
+      skillsDisplayStatus = "block";
+      document.getElementById("skills-info").style.display = skillsDisplayStatus;
+  }
+  else if (skillsDisplayStatus == "block") {
+      skillsDisplayStatus = "none";
+      document.getElementById("skills-info").style.display = skillsDisplayStatus;
+  }
+}
+
+// Publications
+let pubsDisplayStatus = "none";
+document.getElementById("pubs-info").style.display = pubsDisplayStatus;
+
+document.getElementById("pubs").onclick = function() {
+  if (pubsDisplayStatus == "none") {
+      pubsDisplayStatus = "block";
+      document.getElementById("pubs-info").style.display = pubsDisplayStatus;
+  }
+  else if (pubsDisplayStatus == "block") {
+      pubsDisplayStatus = "none";
+      document.getElementById("pubs-info").style.display = pubsDisplayStatus;
+  }
+}

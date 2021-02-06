@@ -33,6 +33,10 @@ a:visited{
   color: inherit;
 }
 
+strong {
+  color:#DB6B69
+}
+
 
 .feature-img {
   width: 95%;
@@ -78,8 +82,7 @@ h2 {
 
 .contact-data {
   float: left;
-  padding: 2%;
-  padding-left: 0%;
+  padding-right: 2%;  
 }
 
 #column2 {
@@ -90,26 +93,11 @@ h2 {
   float: left;
 }
 
-.section-container {
-  width: 300px;
-  font-size: 16px;
-  font-family: helvetica;
-  font-weight: 300;
-  display: block;
-  color: rgb(34, 89, 125);
-}
-
 .info-text {
     font-size: 16px;
     font-family: helvetica;
     font-weight: 300;
-}
-
-.small-link {
-  font-family: inherit;
-  font-size: inherit;
-  text-decoration-color: #DB6B69;
-  text-decoration: none;
+    text-decoration-color: #DB6B69;
 }
 
 #column3 {
@@ -153,7 +141,6 @@ h2 {
 }
 .item-header {
     font-family: helvetica, sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 16px;
-    font-style: bold;
 }
