@@ -1,4 +1,4 @@
-// CONTACT
+instagram// CONTACT
 let contactDisplayStatus = "none";
 document.getElementById("contact-info").style.display = contactDisplayStatus;
 
@@ -85,5 +85,35 @@ document.getElementById("pubs").onclick = function() {
   else if (pubsDisplayStatus == "block") {
       pubsDisplayStatus = "none";
       document.getElementById("pubs-info").style.display = pubsDisplayStatus;
+  }
+}
+
+//Instagram
+let instaDisplayStatus = "none";
+document.getElementById("instagram-div").style.display = instaDisplayStatus;
+
+document.getElementById("instagram").onclick = function() {
+  if (instaDisplayStatus == "none") {
+      instaDisplayStatus = "block";
+      document.getElementById("instagram-div").style.display = instaDisplayStatus;
+  }
+  else if (instaDisplayStatus == "block") {
+      instaDisplayStatus = "none";
+      document.getElementById("instagram-div").style.display = instaDisplayStatus;
+  }
+}
+
+//Twitter
+let twitterDisplayStatus = "none";
+document.getElementById("twitter-div").style.display = twitterDisplayStatus;
+
+document.getElementById("twitter").onclick = function() {
+  if (twitterDisplayStatus == "none") {
+      twitterDisplayStatus = "block";
+      document.getElementById("twitter-div").style.display = twitterDisplayStatus;
+  }
+  else if (twitterDisplayStatus == "block") {
+      twitterDisplayStatus = "none";
+      document.getElementById("twitter-div").style.display = twitterDisplayStatus;
   }
 }

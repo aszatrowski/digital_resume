@@ -13,3 +13,4 @@
 * Some sort of JS thing to track paper citations
 * PDF download link
 * Make [main.js](scripts/main.js) more efficient with functions
+* Add clear show/hide buttom to each heading
