@@ -1,4 +1,5 @@
 // Column1 Vars
+let aboutDisplayStatus = "none";
 let contactDisplayStatus = "none";
 let educationDisplayStatus = "none";
 let workexpDisplayStatus = "none";
@@ -9,6 +10,24 @@ let skillsDisplayStatus = "none";
 let pubsDisplayStatus = "none";
 let instaDisplayStatus = "none";
 let twitterDisplayStatus = "none";
+
+document.getElementById("about-info").style.display = aboutDisplayStatus;
+
+document.getElementById("about").onclick = function() {
+  // educationDisplayStatus = "none";
+  // workexpDisplayStatus = "none";
+  // activitiesDisplayStatus = "none";
+  if (aboutDisplayStatus == "none") {
+      aboutDisplayStatus = "block";
+      document.getElementById("about-info").style.display = aboutDisplayStatus;
+      // document.getElementById('about').style.margin-bottom = 15;
+  }
+  else if (aboutDisplayStatus == "block") {
+      aboutDisplayStatus = "none";
+      document.getElementById("about-info").style.display = aboutDisplayStatus;
+      // document.getElementById('about').style.margin-bottom = 0;
+  }
+}
 
 document.getElementById("contact-info").style.display = contactDisplayStatus;
 
@@ -103,30 +122,30 @@ document.getElementById("pubs").onclick = function() {
 
 //Instagram
 
-document.getElementById("instagram-div").style.display = instaDisplayStatus;
-
-document.getElementById("instagram").onclick = function() {
-  if (instaDisplayStatus == "none") {
-      instaDisplayStatus = "block";
-      document.getElementById("instagram-div").style.display = instaDisplayStatus;
-  }
-  else if (instaDisplayStatus == "block") {
-      instaDisplayStatus = "none";
-      document.getElementById("instagram-div").style.display = instaDisplayStatus;
-  }
-}
-
-//Twitter
-
-document.getElementById("twitter-div").style.display = twitterDisplayStatus;
-
-document.getElementById("twitter").onclick = function() {
-  if (twitterDisplayStatus == "none") {
-      twitterDisplayStatus = "block";
-      document.getElementById("twitter-div").style.display = twitterDisplayStatus;
-  }
-  else if (twitterDisplayStatus == "block") {
-      twitterDisplayStatus = "none";
-      document.getElementById("twitter-div").style.display = twitterDisplayStatus;
-  }
-}
+// document.getElementById("instagram-div").style.display = instaDisplayStatus;
+//
+// document.getElementById("instagram").onclick = function() {
+//   if (instaDisplayStatus == "none") {
+//       instaDisplayStatus = "block";
+//       document.getElementById("instagram-div").style.display = instaDisplayStatus;
+//   }
+//   else if (instaDisplayStatus == "block") {
+//       instaDisplayStatus = "none";
+//       document.getElementById("instagram-div").style.display = instaDisplayStatus;
+//   }
+// }
+//
+// //Twitter
+//
+// document.getElementById("twitter-div").style.display = twitterDisplayStatus;
+//
+// document.getElementById("twitter").onclick = function() {
+//   if (twitterDisplayStatus == "none") {
+//       twitterDisplayStatus = "block";
+//       document.getElementById("twitter-div").style.display = twitterDisplayStatus;
+//   }
+//   else if (twitterDisplayStatus == "block") {
+//       twitterDisplayStatus = "none";
+//       document.getElementById("twitter-div").style.display = twitterDisplayStatus;
+//   }
+// }
