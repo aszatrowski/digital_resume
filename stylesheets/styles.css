@@ -34,7 +34,6 @@ strong {
   color:#DB6B69
 }
 
-
 .feature-img {
   width: 95%;
   height: 100px;
@@ -73,7 +72,7 @@ h1 {
   font-size: 30px;
   font-family: helvetica, sans-serif;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .inline-data {
@@ -103,7 +102,7 @@ h1 {
   padding-left: 4%;
   padding-top: 2%;
   height: 500px;
-  width: 300px;
+  width: 30%;
   float: left;
 }
 
