@@ -5,7 +5,7 @@ let educationDisplayStatus = "none";
 let workexpDisplayStatus = "none";
 let activitiesDisplayStatus = "none";
 
-// Colum2 Vars
+// Column2 Vars
 let skillsDisplayStatus = "none";
 let pubsDisplayStatus = "none";
 let instaDisplayStatus = "none";
