@@ -31,7 +31,7 @@ a:visited{
 }
 
 strong {
-  color:#DB6B69
+  color:rgb(203, 9, 54)
 }
 
 .feature-img {
@@ -39,9 +39,9 @@ strong {
   height: 100px;
   padding-left: 2%;
   padding-top: 0.2%;
-  /*background-image: linear-gradient(#A6A1AF, #332D43);*/
+  /*background-image: linear-gradient(#A6A1AF, rgb(29, 41, 97));*/
   /*url("assets/IMG_3869.jpg");*/
-  background-color: #332D43;
+  background-color: rgb(29, 41, 97);
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -74,13 +74,11 @@ h1 {
 }
 
 #column2 {
-  /* padding-left: 4%;
-  padding-top: 2%; */
   float: left;
-  background-color: #800000;
+  background-color: rgb(29, 41, 97);
   height: 500px;
 
-  width: 32.5%;
+  width: 32.25%;
   margin-left: 1.25%;
 
 }
@@ -88,7 +86,7 @@ h1 {
 #intro-text {
     border-style: solid;
     border-radius: 2px;
-    border-color: #DB6B69;
+    border-color: rgb(203, 9, 54);
 
     padding: 5px;
     margin-bottom: 10px;
@@ -99,6 +97,13 @@ h1 {
     /* font-style: italic; */
     line-height: 1.5
 
+}
+
+#contact {
+    background-color: rgb(203, 9, 54);
+    color: #FFFFFF;
+    padding: 5%;
+    margin-top: 0%;
 }
 
 .heading {
@@ -118,7 +123,7 @@ h1 {
     font-family: helvetica;
     font-weight: 500;
     font-style: italic;
-    color: #DB6B69;
+    color: rgb(203, 9, 54);
 }
 
 .container {
@@ -137,7 +142,7 @@ h1 {
     font-size: 16px;
     font-family: helvetica;
     font-weight: 300;
-    text-decoration-color: #DB6B69;
+    text-decoration-color: rgb(203, 9, 54);
 }
 
 
@@ -146,7 +151,7 @@ h1 {
   font-family: helvetica;
   color: inherit;
   text-decoration: underline;
-  text-decoration-color: #DB6B69;
+  text-decoration-color: rgb(203, 9, 54);
 }
 .item-header {
     font-family: helvetica, sans-serif;
