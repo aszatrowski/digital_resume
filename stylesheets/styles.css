@@ -38,21 +38,29 @@ strong {
   width: 98%;
   height: 100px;
   padding-left: 2%;
-  padding-top: 0.2%;
+  padding-top: 0;
   /*background-image: linear-gradient(#A6A1AF, rgb(29, 41, 97));*/
   /*url("assets/IMG_3869.jpg");*/
   background-color: rgb(29, 41, 97);
-  background-position: center center;
+  /* background-position: center center; */
   background-repeat: no-repeat;
 }
 
 h1 {
   font-family: futura-pt;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: 500;
   font-style: italic;
   color: #ffffff;
   text-decoration: none;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 #homepage-nameplate {
@@ -75,7 +83,7 @@ h1 {
 
 #column2 {
   float: left;
-  background-color: rgb(29, 41, 97);
+  /* background-color: rgb(29, 41, 97); */
   height: 500px;
 
   width: 32.25%;
@@ -99,15 +107,16 @@ h1 {
 
 }
 
-#contact {
+.sidebar-box {
     background-color: rgb(203, 9, 54);
     color: #FFFFFF;
     padding: 5%;
     margin-top: 0%;
+    margin-bottom: 20px;
 }
 
 .heading {
-  font-size: 30px;
+  /* font-size: 30px; */
   font-family: helvetica, sans-serif;
   font-weight: 600;
   margin-bottom: 20px;
@@ -130,13 +139,6 @@ h1 {
   padding-left: 12px;
 }
 
-.info-text {
-    font-size: 16px;
-    font-family: helvetica;
-    font-weight: 300;
-}
-
-
 
 .info-text {
     font-size: 16px;
@@ -151,7 +153,7 @@ h1 {
   font-family: helvetica;
   color: inherit;
   text-decoration: underline;
-  text-decoration-color: rgb(203, 9, 54);
+  /* text-decoration-color: rgb(203, 9, 54); */
 }
 .item-header {
     font-family: helvetica, sans-serif;
