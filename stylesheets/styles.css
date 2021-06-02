@@ -91,7 +91,7 @@ h3 {
 
 }
 
-#intro-text {
+.highlight {
     border-style: solid;
     border-radius: 2px;
     border-color: rgb(203, 9, 54);
@@ -127,7 +127,7 @@ h3 {
   padding-right: 2%;
 }
 
-.subheading {
+.accent-text {
     font-size: 14px;
     font-family: helvetica;
     font-weight: 500;
@@ -136,7 +136,7 @@ h3 {
 }
 
 .container {
-  padding-left: 12px;
+  /* padding-left: 12px; */
 }
 
 
@@ -160,3 +160,8 @@ h3 {
     font-weight: 600;
     font-size: 16px;
 }
+
+.institution-img {
+    width: 40px;
+    height: 51px;
+    vertical-align: top
